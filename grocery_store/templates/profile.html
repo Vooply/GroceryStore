@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+    Welcome, {{ user }}!
+    Your email is {{ email }}
+</h1>
+{% if current_user.manage_stores %}
+    <hr>
+    <h2><a href="{{ url_for('main.stores') }}">Click HERE to see your managed stores</a></h2>
+{% endif %}
+<h3>Click <a href="{{ url_for('main.goods_prices') }}"> HERE </a> to see all our price list</h3>
+{% endblock %}

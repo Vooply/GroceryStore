@@ -12,16 +12,16 @@ To run server:
     
 ### The project is a grocery store of foods(goods).
 
-###Main Role:
+### Main Role:
 * User
 
-###Scripts:
+### Scripts:
 * Simple login / logout.
 * The user can view a list of all products.
 * The user can view a list of all their purchases, with date, place and price.
 * If the user is a manager, he / she can view their stores.
 
-###For login:
+### For login:
 Take any user from grocery_store/fixture/users.csv or from db :)
 For testing, all password for users in users.csv 'hello'.
 Also you can create new user.
